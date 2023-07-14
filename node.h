@@ -17,21 +17,17 @@ typedef NODE* NodePtr;
 NODE::NODE(char data){
 	this->data = data;
 	nextPtr = NULL;
-
 }
 char NODE::get_value(){
 	return data;
-
 }
 
 NODE* NODE::get_next(){
 	return nextPtr;
-
 }
 
 void NODE::set_next(NODE *nextPtr){
 	 this->nextPtr=nextPtr;
-
 }
 
 NODE::~NODE(){

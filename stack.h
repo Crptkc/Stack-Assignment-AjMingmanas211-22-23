@@ -10,7 +10,6 @@ class Stack {
 private:
     NodePtr top;
     int size;
-
 public:
     Stack(NodePtr = nullptr);
     ~Stack();
